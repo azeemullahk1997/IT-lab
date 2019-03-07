@@ -1,0 +1,34 @@
+body{
+  background-color: white;
+}
+ul li{
+  padding:25px;
+  display:inline;
+  padding-inline-start: 185px;
+}
+div.f3{
+  background-color: lightgraygrey;
+  font-size: x-large;
+  background-image: url("ice.jpeg");
+  background-repeat: no-repeat;
+  background-position: right top; 
+}
+div.f4{
+  background-color:yellow;
+    width: 34cm;
+  height:5cm;
+  opacity: 0.8;
+}
+div.f5{
+  background-color: red;
+  width: 34cm;
+  height:5cm;
+  opacity: 0.8;
+  
+}
+div.f2 {
+  height: 500px;
+  background-image: url("bice.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
