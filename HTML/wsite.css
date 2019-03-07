@@ -1,0 +1,94 @@
+body{
+  background-color: white;
+}
+div.f1{
+    background-image: url("fre.jpeg");
+  background-repeat: no-repeat;
+  background-position: left;
+  height: 4cm;
+  width:auto;
+}
+ul li{
+  padding:25px;
+  display:inline;
+  padding-inline-start: 185px;
+}
+div.f3{
+  background-color: lightgray;
+  font-size: x-large;
+  background-image: url("ice.jpeg");
+  background-repeat: no-repeat;
+  background-position: right top; 
+  height: 5cm;
+  opacity: 0.8;
+}
+div.f4{
+  background-color:yellow;
+    width: 34cm;
+  height:5cm;
+  opacity: 0.8;
+}
+div.f5{
+  background-color: red;
+  width: 34cm;
+  height:5cm;
+  opacity: 0.8;
+  background-image: url("smo.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  
+}
+div.f2 {
+  border-collapse: collapse;
+  height: 500px;
+  background-image: url("bice.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*img.tt1{
+width: 250px;
+height: 140px;
+background: blueviolet;
+transition: width 1s,height 1s;
+}
+img.tt1:hover{
+  width:500px;
+  height:281px;
+}
+
+img.tt2:hover{
+  width:275px;
+  height:183px;
+  transform: rotate(180deg);
+}
+img.tt2{
+  width:100px;
+  height: 100px;
+  background: lightblue;
+  transition: width 2s,height 2s,transform 2s;
+}
+div.t4{
+  width: 200px;
+  height: 200px;
+  position: relative;
+  background-color: red;
+  animation-name: example; 
+  animation-duration: 4s; 
+  animation-timing-function:linear;
+  animation-delay:4s;
+  animation-iteration-count:5;
+  animation-direction:reverse;
+}
+@keyframes example {
+  0%   {background-color: red;left:0px;top:0px;}
+  25%  {background-color: yellow;left:200px;top:0px;}
+  50%  {background-color: blue;left:200px;top:200px;}
+  75%  {background-color: green;left:0px;top:200px;}
+  100% {background-color: red;left:0px;top:0px;}
+}
+/*
+@keyframes example {
+  from {background-color: red;}
+  to {background-color: yellow;}*/
+

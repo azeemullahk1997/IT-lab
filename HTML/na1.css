@@ -1,0 +1,27 @@
+ul li{
+  color:black;
+  display: block;
+}
+a:link{
+	background-color:gray;
+	padding:14px 25px;
+	text-align:center;
+	text-decoration:none;
+	display:block;
+	color: black;
+}
+a:visited{
+	color: white;  
+	padding:14px 25px;
+	text-align:center;
+	display:block;
+}
+a:hover{
+  background-color:black;
+}
+a:active  {
+  background-color:blue;
+}
+div{
+  background-color:lightblue;
+}

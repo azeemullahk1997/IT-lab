@@ -1,0 +1,17 @@
+p{
+ text-align: center;
+}
+div{
+border-width:15px;
+border:outset;
+margin: 75px;
+background-image: url("work.jpeg");
+}
+div.first{
+  border-style: double;
+  opacity: 0.75;
+  border: solid;
+  border-width: 10px;
+  border-color: darkgreen;
+}
+

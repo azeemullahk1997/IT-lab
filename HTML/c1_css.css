@@ -1,0 +1,54 @@
+body{
+  background-color:peachpuff;
+}
+h1{
+color:darkred;
+margin-left:40px;
+}
+p{
+  /*! border-width:auto; */
+  /*! border-bottom-style: solid; */
+  /*! border-style: groove; */
+  /*! border-color: wheat; */
+  text-shadow:4px 4px 16px orange;
+  text-indent: 1cm;
+  font-size:large;
+  /*! line-height:2cm; */
+  line-height:3ex;
+  word-spacing:.15in;
+  padding:5px;
+  font-stretch:ultra-condensed;
+}
+
+div{
+  color: white;
+  width: :300px;
+  background-color: gray;
+  border: 10px solid green;
+  padding: 5px;
+  margin:  66px;
+}
+ul li{
+  padding: 120px;
+  color:white;
+  display: inline;
+}
+a:link.high,a:visited.high{
+	color: white;  
+	background-color:lightgray;
+	padding:14px 25px;
+	text-align:center;
+	text-decoration:none;
+	display:inline-block;
+}
+a:hover.high,a:active.high  {
+  background-color: green;
+}
+body{
+  background-image: url("clouds.jpg");
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+}
+a.nohigh{
+  
+}

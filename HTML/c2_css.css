@@ -1,0 +1,53 @@
+body{
+ background-color: palegreen;
+}
+div.a{
+  width: :300px;
+  text-align: center;
+  background-color: darkblue;
+  border: 10px solid green;
+  color:white;  
+  padding: 10px;
+  margin:  25px;
+}
+ul li{
+  padding: 75px;
+  color:white;
+  display: inline;
+}
+a:link,a:visited{
+	color: white;  
+	background-color:#f44336;
+	padding:14px 25px;
+	text-align:center;
+	text-decoration:none;
+	display:inline-block;
+}
+a:hover,a:active  {
+  background-color: green;
+}
+p.c{
+
+font-variant: small-caps;
+background-color:peru;
+padding:20px;
+}
+div.b:hover p.c{
+display:block;
+}
+h1::before{
+content:url(img.jpeg);
+}
+h1::after{
+content:url(img.jpeg);
+}
+::selection{
+color:red;
+background:yellow;
+}
+h1{
+  text-align: center;
+}
+img{
+  opacity: 0.5;
+}
